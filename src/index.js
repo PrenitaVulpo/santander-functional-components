@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hello from './components/Hello';
+import StateTest from './components/StateTest';
 import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Hello text="Olá" />
+    <StateTest />
   </React.StrictMode>,
   document.getElementById('root')
 );
